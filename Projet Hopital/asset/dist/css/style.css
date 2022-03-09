@@ -1,0 +1,70 @@
+body {
+    background-color: whitesmoke;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#login {
+    background-color:white;
+    margin: auto;
+    padding-top: 60px;
+    height: 600px;
+    width: 90%;
+    border-radius: 8px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.521);
+}
+
+#login form {
+    margin-top: 25px;
+}
+
+.login-form {
+    margin-top: 65px;
+}
+
+input {
+    display: block;
+    margin-top: 25px;
+}
+
+input[type=text],input[type=password] {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid green;
+    width: 75%;
+}
+
+input[type=submit]{
+    border-radius: 20px ;
+    border-color: beige;
+    background: rgb(1, 253, 77);
+    width: 180px;
+    height: 40px;
+    color: white;
+
+}
+
+
+a {
+    text-decoration: none;
+}
+
+form a {
+    display: block;
+    margin-top: 20px;
+}
+
+.description {
+    padding: 0px 35px 0px 35px;
+}
+
+
+
+#switch {
+    margin-top: 70px;
+}
