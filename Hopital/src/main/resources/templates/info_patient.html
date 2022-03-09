@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Info patient</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <h3 data-th-text="${ hospitalisation.id_hospitalisation}"></h3>
+            <div data-th-object="${ hospitalisation.patient }">
+                <h4>Info patient</h4>
+                <p data-th-text="*{ image_patient }" ></p>
+                <p data-th-text="*{ numero_patient }" ></p>
+                <p data-th-text="*{ nom_patient }" ></p>
+
+                <p data-th-text="*{ sexe.valeur_sexe }" ></p>
+                <p data-th-text="*{ poids_patient }" ></p>
+                <p data-th-text="*{ profession_patient }" ></p>
+                <p data-th-text="*{ email_patient }" ></p>
+                <p data-th-text="*{ telephone_patient }" ></p>
+            </div>
+            <div data-th-object="${ hospitalisation.chambre }">
+                <h4>Info chambre patient</h4>
+                <p data-th-text="*{ localisation.numero_salle }" ></p>
+                <p data-th-text="*{ localisation.numero_etage }" ></p>
+            </div>
+            <p data-th-text="${ hospitalisation.sejour.cout }"></p>
+        </div>
+    </body>
+</html>

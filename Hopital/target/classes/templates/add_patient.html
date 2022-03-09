@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h4>Ajout patient</h4>
+        <form action="#" data-th-action="@{/addPatient}" data-th-object="${patient}" method="post">
+            <input type="text" data-th-field="*{nom_patient}" placeholder="Nom">
+            <input type="text" data-th-field="*{prenoms_patient}" placeholder="Prenom">
+            <input type="text" data-th-field="*{adresse_patient}" placeholder="Adresse">
+            <input type="text" data-th-field="*{telephone_patient}" placeholder="Telephone">
+            <input type="text" data-th-field="*{email_patient}" placeholder="Email">
+            <input type="number" data-th-field="*{poids_patient}" placeholder="Poids">
+            <input type="text" data-th-field="*{profession_patient}" placeholder="Profession">
+            <input type="date" data-th-field="*{dates_de_naissance_patient}">
+            <input type="text" data-th-field="*{image_patient}" placeholder="Image">
+            <select data-th-field="*{sexe.id_sexe}">
+                <option data-th-each=" s : ${sexes}" data-th-text="${s.valeur_sexe}" data-th-value="${s.id_sexe}" >
+            </select>
+            <input type="submit"  value="Ajouter" />
+        </form>
+    </body>
+</html>

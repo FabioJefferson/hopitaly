@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>List chambre</div>
+        <table>
+            <tr>
+                <td>Salle</td>
+                <td>Etage</td>
+                <td>Categorie</td>
+                <td>Prix par jour</td>
+                <td>Nombre lits</td>
+                <td>Nombre lits disponibles</td>
+            </tr>
+            <tr data-th-each=" c : ${chambres}">
+                <td data-th-text="${c.localisation.numero_salle}"></td>
+                <td data-th-text="${c.localisation.numero_etage}"></td>
+                <td data-th-text="${c.categorie_chambre.valeur}"></td>
+                <td data-th-text="${c.categorie_chambre.prix}"></td>
+                <td data-th-text="${c.categorie_chambre.nombre_lit}"></td>
+                <td data-th-text="${c.lit_disponible}"></td>
+            </tr>
+        </table>
+    </body>
+</html>
+
