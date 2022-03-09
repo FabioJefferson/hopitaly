@@ -25,7 +25,7 @@
               <th class="nav-link navbar-custompat">PATIENT</th>
             </tr>
             <tr>
-              <td class="nav-link navbar-customl1"> <a class="btn" id="bout" href="#" role="button">Nouvel</a> </td>
+              <td class="nav-link navbar-customl1"> <a class="btn" id="bout" href="ajout.jsp" role="button">Nouvel</a> </td>
             </tr>
             <tr>
               <td class="nav-link navbar-customl2 "><a class="btn" id="btn1" href="modif_patient.jsp" role="button">Modifier</a></td>

@@ -146,7 +146,7 @@
                     
                   </p>
                   <p>Duree de sejour:</p>
-                  <a href="#">Etat de prestation</a>
+                  <a href="prestation.jsp">Etat de prestation</a>
                    
                </td>
           </tr>

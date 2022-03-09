@@ -1,0 +1,177 @@
+#boite{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color:rgb(176, 245, 196);
+     
+    margin-top: 130px;
+    height: 500px;
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.521);
+}
+#taille{
+    width: 100px;
+}
+#footers{
+    margin-top:20px;
+    margin-left: 300px;
+    
+}
+#total{
+    margin-left: 500px;
+    padding-bottom: 0px;
+}
+.row{
+    background-color:white;
+}
+#table{
+    width: min-content;
+    background-color:white;
+}
+ #sary{
+    margin-top: 0px;
+     
+ }
+#boutn{
+    background-color: green;
+    width: 100px;
+}
+#footer{
+    background-color:rgb(176, 245, 196);
+    margin-top: 0px;
+}
+#foot{
+    background-color:rgb(176, 245, 196);
+font-weight: bold;
+margin-left:0px;
+}
+#historique{
+    text-indent: 400px;
+}
+ #num{
+     font-size: larger;
+     padding-left: 90px;
+     font-weight: bold;
+     background-color: white;
+     margin-top: 50px;
+ }
+body {
+    background-color:whitesmoke;
+}
+#table1{
+    background-color: white;
+    margin-top: 30px;
+}
+
+.container {
+    position: static;
+    margin-top: 100px;
+    /*top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);*/
+}
+
+.navbar-custom1{
+    height: 220px;
+    background-color:rgb(29, 122, 0);
+}
+ .navbar-custom{
+     color:black;
+ }
+ 
+.navbar-custom2 {
+    height: 50px;
+    background-color:rgba(147, 214, 145, 0.952);
+}
+ img{
+     padding-top: 0px;
+     width: 140px;
+     height: 120px;
+ }
+ .navbar-customcol{
+     padding-top: 0px;
+     text-indent: 0px;
+  
+    color: black;
+ }
+ .bouton1{
+     background-color: whitesmoke;
+     padding-top: 0px;
+ }
+ .navbar-customl1{
+     padding-top:0px ;
+ }
+ .navbar-custompat{
+     color: white;
+     font-size: large;
+     margin-top: 10px;
+ }
+
+ image{
+     padding-top: 15px;
+     width: 100px;
+     height:120px;
+ }
+ .col{
+     height: 30px;
+ }
+ .navbar-customch{
+    padding-top: 10px;
+    text-indent: 0px;
+     color: white;
+     margin-top: 10px;
+     font-size: large;
+     margin-left: 400px;
+ }
+ .navbar-custombut{
+    padding-top: 0px;
+    text-indent: 0px;
+     background-color:whitesmoke;
+     color:black;
+     margin-top: 0px;
+     font-size: large;
+     margin-left: 400px;
+     font-size: small;
+ }
+ .navbar-custompers{
+    padding-top: 10px;
+    text-indent: 0px;
+     color: white;
+     margin-top: 10px;
+     font-size: large;
+     margin-left: 600px;
+ }
+ .navbar-custompr{
+    padding-top: 0px;
+    text-indent: 0px;
+     background-color:whitesmoke;
+     color:black;
+     margin-top: 0px;
+     font-size: small;
+     margin-left: 600px;
+     font-size: small;
+}
+ #bout{
+     background-color: aliceblue;
+     font-size: small ;
+ }
+ #btn1{
+    background-color: darkgrey;
+    font-size: small ;
+ }
+ #btn2{
+    background-color: darkgrey;
+    font-size: small ;
+ }
+ #btn3{
+    background-color: aliceblue;
+    font-size: small ;
+ }
+ #prest{
+    background-color: aliceblue;
+    font-size: small ;
+      
+ }
+  
