@@ -28,12 +28,12 @@
               <td class="nav-link navbar-customl1"> <a class="btn" id="bout" href="#" role="button">Nouvel</a> </td>
             </tr>
             <tr>
-              <td class="nav-link navbar-customl2 "><a class="btn" id="btn1" href="#" role="button">Modifier</a></td>
+              <td class="nav-link navbar-customl2 "><a class="btn" id="btn1" href="modif_patient.jsp" role="button">Modifier</a></td>
             </tr>
             <tr>
               <td class="nav-link navbar-customl3 "><a class="btn"id="btn2" href="#" role="button">Supprimer</a></td>
             </tr>
-            <td class="nav-link navbar-customl4"><a class="btn" id="btn3" href="#" role="button">Liste</a></td>
+            <td class="nav-link navbar-customl4"><a class="btn" id="btn3" href="liste_pers.jsp" role="button">Liste</a></td>
           </tr>
           </table>
            
@@ -55,7 +55,7 @@
                   <th class="nav-link navbar-custompers">PERSONNELS</th>
                 </tr>
                 <tr>
-                  <td class="nav-link navbar-custompr">  <a class="btn" id="prest" href="#" role="button">Voir prestation</a></td>
+                  <td class="nav-link navbar-custompr">  <a class="btn" id="prest" href="liste_pers.jsp" role="button">Voir prestation</a></td>
                 </tr>
               </table>
                
