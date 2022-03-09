@@ -33,7 +33,7 @@
             <tr>
               <td class="nav-link navbar-customl3 "><a class="btn"id="btn2" href="#" role="button">Supprimer</a></td>
             </tr>
-            <td class="nav-link navbar-customl4"><a class="btn" id="btn3" href="liste_pers.jsp" role="button">Liste</a></td>
+            <td class="nav-link navbar-customl4"><a class="btn" id="btn3" href="liste_patient.jsp" role="button">Liste</a></td>
           </tr>
           </table>
            
@@ -44,7 +44,7 @@
                   <th class="nav-link navbar-customch">CHAMBRE</th>
                 </tr>
                 <tr>
-                  <td class="nav-link navbar-custombut">  <a class="btn" href="#" role="button">Voir tous</a></td>
+                  <td class="nav-link navbar-custombut">  <a class="btn" href="chambre.jsp" role="button">Voir tous</a></td>
                 </tr>
               </table>
                
